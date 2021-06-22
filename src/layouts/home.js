@@ -59,9 +59,6 @@ export default class Home extends React.Component {
         return (
             <article key={index} className="post">
                 <header className="post-header">
-                    <h2 className="post-title">
-                        <Link href={projectUrl}>{title}</Link>
-                    </h2>
                     <div className="post-meta">
                         Published on <time className="published" dateTime={dateTimeAttr}>{formattedDate}</time>
                     </div>
@@ -76,6 +73,9 @@ export default class Home extends React.Component {
                         <p>{excerpt}</p>
                     </div>
                 )}
+                <h2 className="post-title">
+                    <Link href={projectUrl}>{title}</Link>
+                </h2>
                 {hasMoreLink && moreLinkText && (
                     <p className="read-more">
                         <Link className="read-more-link" href={postUrl}>{moreLinkText} <span className="icon-arrow-right" aria-hidden="true" /></Link>
