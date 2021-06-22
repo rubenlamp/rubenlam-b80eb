@@ -71,7 +71,7 @@ export default class Header extends React.Component {
     render() {
         const image = _.get(this.props, 'image');
         const page = _.get(this.props, 'page');
-        const pageUrl = _.trim(getPageUrl(page), '/');
+        const pageUrl = _.trim(getPostUrl(page), '/');
         const pageLayout = _.get(page, 'layout');
         const config = _.get(this.props, 'config');
         const header = _.get(config, 'header');
