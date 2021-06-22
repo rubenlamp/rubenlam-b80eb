@@ -78,7 +78,7 @@ export default class Home extends React.Component {
                 </h2>
                 {hasMoreLink && moreLinkText && (
                     <p className="read-more">
-                        <Link className="read-more-link" href={postUrl}>{moreLinkText} <span className="icon-arrow-right" aria-hidden="true" /></Link>
+                        <Link className="read-more-link" href={projectUrl}>{moreLinkText} <span className="icon-arrow-right" aria-hidden="true" /></Link>
                     </p>
                 )}
             </article>
