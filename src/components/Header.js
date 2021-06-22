@@ -2,7 +2,7 @@ import React from 'react';
 import Router from 'next/router';
 import _ from 'lodash';
 
-import { getPageUrl, classNames, Link, withPrefix } from '../utils';
+import { getPostUrl, getProjectUrl, classNames, Link, withPrefix } from '../utils';
 import Action from './Action';
 import ActionIcon from './ActionIcon';
 
