@@ -30,7 +30,11 @@
                 "url": "/contact",
                 "style": "link"
             },
-            
+            {
+                "label":"Gallery",
+                "url": "/gallery",
+                "style": "link"
+            }
         ],
         "has_social": true,
         "social_links": [
