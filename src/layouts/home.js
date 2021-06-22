@@ -45,7 +45,7 @@ export default class Home extends React.Component {
                 )}
             </article>
         );
-    renderProyect(post, index, hasMoreLink, moreLinkText) {
+    renderProyect(project, index, hasMoreLink, moreLinkText) {
         const title = _.get(post, 'title');
         const thumbImage = _.get(post, 'thumb_img_path');
         const thumbImageAlt = _.get(post, 'thumb_img_alt', '');
