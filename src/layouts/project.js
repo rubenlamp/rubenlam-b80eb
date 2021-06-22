@@ -8,7 +8,7 @@ import HeaderAlt from '../components/HeaderAlt';
 import Footer from '../components/Footer';
 import { htmlToReact, markdownify } from '../utils';
 
-export default class Post extends React.Component {
+export default class Project extends React.Component {
     render() {
         const data = _.get(this.props, 'data');
         const config = _.get(data, 'config');
