@@ -42,7 +42,7 @@ export default class Home extends React.Component {
                     <p className="read-more">
                         <Link className="read-more-link" href={postUrl}>{moreLinkText} <span className="icon-arrow-right" aria-hidden="true" /></Link>
                     </p>
-                )}
+                )};
             </article>
         );
     renderProyect(project, index, hasMoreLink, moreLinkText) {
