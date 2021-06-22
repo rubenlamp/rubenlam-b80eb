@@ -38,7 +38,7 @@ seo:
     - name: 'twitter:image'
       value: images/1.jpg
       relativeUrl: true
-layout: page
+layout: post
 ---
 
 ## Long Distance Hiking
