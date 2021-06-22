@@ -47,7 +47,7 @@ export default class Home extends React.Component {
         );
     }
      renderProject(project, index, hasMoreLink, moreLinkText) {
-        const title = _.get(post, 'title');
+        const title = _.get(project, 'title');
         const thumbImage = _.get(post, 'thumb_img_path');
         const thumbImageAlt = _.get(post, 'thumb_img_alt', '');
         const excerpt = _.get(post, 'excerpt');
