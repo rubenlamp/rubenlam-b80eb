@@ -45,44 +45,7 @@ export default class Home extends React.Component {
                 )}
             </article>
         );
-    renderProyect(project, index, hasMoreLink, moreLinkText) {
-        const title = _.get(post, 'title');
-        const thumbImage = _.get(post, 'thumb_img_path');
-        const thumbImageAlt = _.get(post, 'thumb_img_alt', '');
-        const excerpt = _.get(post, 'excerpt');
-        const date = _.get(post, 'date');
-        const dateTimeAttr = moment(date).strftime('%Y-%m-%d %H:%M');
-        const formattedDate = moment(date).strftime('%B %d, %Y');
-        const postUrl = getPageUrl(post, { withPrefix: true });
-
-        return (
-            <article key={index} className="post">
-                <header className="post-header">
-                    <div className="post-meta">
-                        Published on <time className="published" dateTime={dateTimeAttr}>{formattedDate}</time>
-                    </div>
-                </header>
-                {thumbImage && (
-                    <Link className="post-thumbnail" href={postUrl}>
-                        <img className="thumbnail" src={withPrefix(thumbImage)} alt={thumbImageAlt} />
-                    </Link>
-                )}
-                {excerpt && (
-                    <div className="post-content">
-                        <p>{excerpt}</p>
-                    </div>
-                )}
-                <h2 className="post-title">
-                        <Link href={postUrl}>{title}</Link>
-                </h2>
-                {hasMoreLink && moreLinkText && (
-                    <p className="read-more">
-                        <Link className="read-more-link" href={postUrl}>{moreLinkText} <span className="icon-arrow-right" aria-hidden="true" /></Link>
-                    </p>
-                )}
-            </article>
-        );
-    }
+    
     }
 
     render() {
