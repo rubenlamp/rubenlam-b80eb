@@ -95,7 +95,7 @@ export default class Home extends React.Component {
         const moreLinkText = _.get(page, 'more_link_text');
         const posts = _.orderBy(_.get(this.props, 'posts', []), 'date', 'desc');
         const projects = _.orderBy(_.get(this.props, 'projects', []), 'date', 'desc');
-        
+
         return (
             <Layout page={page} config={config}>
                 <Header config={config} page={page} image={headerImage} />
@@ -105,7 +105,7 @@ export default class Home extends React.Component {
                             {_.map(posts, (post, index) => this.renderPost(post, index, hasMoreLink, moreLinkText))}
                         </div>
                         <div className="project-feed">
-                            {_.map(projects, (post, index) => this.renderProject(post, index, hasMoreLink, moreLinkText))}
+                            {_.map(posts, (post, index) => this.renderProject(post, index, hasMoreLink, moreLinkText))}
                         </div>
                     </main>
                     <Footer config={config} />
