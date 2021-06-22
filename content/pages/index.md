@@ -13,7 +13,7 @@ seo:
       value: RubenLAM
       keyName: property
     - name: 'og:description'
-      value: The preview of the Fjord theme
+      value: RubenLAM Presentation page
       keyName: property
     - name: 'og:image'
       value: images/home.jpg
