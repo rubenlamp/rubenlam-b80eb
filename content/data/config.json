@@ -29,7 +29,8 @@
                 "label": "Contact",
                 "url": "/contact",
                 "style": "link"
-            }
+            },
+            
         ],
         "has_social": true,
         "social_links": [
