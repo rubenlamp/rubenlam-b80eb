@@ -17,7 +17,7 @@ export default class Home extends React.Component {
         const dateTimeAttr = moment(date).strftime('%Y-%m-%d %H:%M');
         const formattedDate = moment(date).strftime('%B %d, %Y');
         const postUrl = getPageUrl(post, { withPrefix: true });
-
+        console.log('toy cheamenadodisomo');
         return (
             <article key={index} className="post">
                 <header className="post-header">
