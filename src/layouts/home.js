@@ -105,7 +105,7 @@ export default class Home extends React.Component {
                             {_.map(posts, (post, index) => this.renderPost(post, index, hasMoreLink, moreLinkText))}
                         </div>
                         <div className="project-feed">
-                            {_.map(projects, (post, index) => this.renderPost(post, index, hasMoreLink, moreLinkText))}
+                            {_.map(projects, (project, index) => this.renderPost(project, index, hasMoreLink, moreLinkText))}
                         </div>
                     </main>
                     <Footer config={config} />
