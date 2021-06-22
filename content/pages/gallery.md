@@ -1,7 +1,7 @@
 ---
 title: Gallery
 subtitle: Esto es una galeria
-img_path: images/about.jpg
+img_path: https://pbs.twimg.com/media/E4eqkT8VcAY3oIS?format=jpg&name=large
 seo:
   title: About Me
   description: A page about me and my work
