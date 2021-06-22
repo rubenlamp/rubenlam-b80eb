@@ -16,12 +16,12 @@
                 "style": "link"
             },
             {
-                "label": "Portfolio",
+                "label": "Gallery",
                 "url": "/about",
                 "style": "link"
             },
             {
-                "label": "Style Guide",
+                "label": "Blog",
                 "url": "/style-guide",
                 "style": "link"
             },
