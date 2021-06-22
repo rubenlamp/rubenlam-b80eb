@@ -5,7 +5,7 @@ import moment from 'moment-strftime';
 import { Layout } from '../components/index';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { getPostUrl, get Link, withPrefix } from '../utils';
+import { getPostUrl, getProjectUrl, Link, withPrefix } from '../utils';
 
 export default class Home extends React.Component {
     renderPost(post, index, hasMoreLink, moreLinkText) {
