@@ -48,10 +48,10 @@ export default class Home extends React.Component {
     }
      renderProject(project, index, hasMoreLink, moreLinkText) {
         const title = _.get(project, 'title');
-        const thumbImage = _.get(post, 'thumb_img_path');
-        const thumbImageAlt = _.get(post, 'thumb_img_alt', '');
-        const excerpt = _.get(post, 'excerpt');
-        const date = _.get(post, 'date');
+        const thumbImage = _.get(project, 'thumb_img_path');
+        const thumbImageAlt = _.get(project, 'thumb_img_alt', '');
+        const excerpt = _.get(project, 'excerpt');
+        const date = _.get(project, 'date');
         const dateTimeAttr = moment(date).strftime('%Y-%m-%d %H:%M');
         const formattedDate = moment(date).strftime('%B %d, %Y');
         const postUrl = getPageUrl(post, { withPrefix: true });
