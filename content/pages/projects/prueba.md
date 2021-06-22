@@ -3,7 +3,7 @@ title: Los peces vuelan
 excerpt: >-
   Esto es una prueba de proyecto 
 date: '2019-04-09'
-thumb_img_path: images/1.jpg
+thumb_img_path: https://pbs.twimg.com/media/E4c6WWVVcAcDDRJ?format=jpg&name=large
 thumb_img_alt: A man standing on a rock cliff overlooking a river
 content_img_path: images/1.jpg
 seo:
