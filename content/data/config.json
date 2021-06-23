@@ -11,7 +11,7 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Home",
+                "label": "Homwe",
                 "url": "/",
                 "style": "link"
             },
@@ -31,7 +31,7 @@
                 "style": "link"
             },
             {
-                "label":"Gallery",
+                "label": "Gallery",
                 "url": "/gallery",
                 "style": "link"
             }
