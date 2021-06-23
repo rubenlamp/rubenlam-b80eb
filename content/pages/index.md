@@ -1,19 +1,19 @@
 ---
 title: Home
 has_more_link: true
-more_link_text: Keep reading
+more_link_text: Know more
 seo:
-  title: Stackbit Fjord Theme
-  description: The preview of the Fjord theme
+  title: RubenLAM portfolio
+  description: RubenLAM Presentation page
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Fjord Theme
+      value: RubenLAM
       keyName: property
     - name: 'og:description'
-      value: The preview of the Fjord theme
+      value: RubenLAM Presentation page
       keyName: property
     - name: 'og:image'
       value: images/home.jpg

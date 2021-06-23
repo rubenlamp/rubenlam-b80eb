@@ -1,5 +1,5 @@
 {
-    "title": "Stackbit Fjord Theme",
+    "title": "rubenlam website",
     "path_prefix": "/",
     "palette": "yellow",
     "header": {
@@ -16,12 +16,12 @@
                 "style": "link"
             },
             {
-                "label": "About",
+                "label": "Gallery",
                 "url": "/about",
                 "style": "link"
             },
             {
-                "label": "Style Guide",
+                "label": "Blog",
                 "url": "/style-guide",
                 "style": "link"
             },
@@ -29,13 +29,18 @@
                 "label": "Contact",
                 "url": "/contact",
                 "style": "link"
+            },
+            {
+                "label":"Gallery",
+                "url": "/gallery",
+                "style": "link"
             }
         ],
         "has_social": true,
         "social_links": [
             {
                 "label": "Twitter",
-                "url": "https://twitter.com/",
+                "url": "https://twitter.com/RubenLAM_Art",
                 "style": "icon",
                 "icon_class": "twitter",
                 "new_window": true
@@ -56,14 +61,14 @@
             },
             {
                 "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
+                "url": "https://www.linkedin.com/in/ruben-azael-martinez-lozada-b42a56117/",
                 "style": "icon",
                 "icon_class": "linkedin",
                 "new_window": true
             },
             {
                 "label": "DEV",
-                "url": "https://dev.to/",
+                "url": "https://www.facebook.com/100.Ruben.LAM",
                 "style": "icon",
                 "icon_class": "dev",
                 "new_window": true

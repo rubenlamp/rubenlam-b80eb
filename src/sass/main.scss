@@ -1,19 +1,20 @@
 // Font.
 $font: (
     primary: (
-        'PT Serif',
-        serif
+        'Nunito',
+        sans-serif
     )
 );
 
 // Palette.
 $palette: (
-    primary: #666666,
-    secondary: darken(#666666, 27%),
-    meta: lighten(#666666, 23%),
-    border: lighten(#666666, 38%),
-    bg: lighten(#666666, 55%),
-    accent: #ffd300,
+    primary: #251433,
+    secondary: #926DC3,
+    meta: lighten(#251433, 23%),
+    border: lighten(#251433, 38%),
+    bg: lighten(#251433, 55%),
+    light: #eae8ed,
+    accent: #F5CD7A,
     accent-blue: #1fa2ff,
     accent-green: #24b466,
     accent-red: #f45a4e
